@@ -1,0 +1,18 @@
+name: fo_diagnostique
+description: "FO_printer gestionnaire"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Version de Dart requise
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0 # Le package pour tester les URLs ou faire des requêtes réseau
+
+flutter:
+  uses-material-design: true
+  
+  # Configuration pour ton image de fond :
+  assets:
+    - assets/background.png
